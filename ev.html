@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="plus.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div class="contraire">
+        <div class="code-ren">
+            <h3>code</h3>
+            <input type="password" name="pass-re" id="pass-re" required>
+            <button id="code">Submit</button>
+        </div>
+        <div class="ajouter">
+            <h1>Ajouet une reunion</h1>
+            <form method="post">
+                <div class="titres">
+                    <label for="titre">Titre</label>
+                    <input type="text" name="titre" id="name-reunion" required>
+                </div>
+                <div class="matier">
+                    <label for="matiere">Matière</label>
+                    <input type="text" name="matiere" id="matiere" required>
+                </div>
+                <div class="date">
+                    <label for="date">Date</label>
+                    <select name="date" id="date" required>
+                        <option value="">Jour</option>
+                        <option value="">Lundi</option>
+                        <option value="">Mardi</option>
+                        <option value="">Mercredi</option>
+                        <option value="">jeudi</option>
+                        <option value="">vendredi</option>
+                        <option value="">samedi</option>
+                        <option value="">dimanche</option>
+                    </select>
+                    <label for="heure">Heure</label>
+                    <select name="heure" id="heure" required>
+                        <option value="">Heure</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="21">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </div>
+                <div class="url-ren">
+                    <label for="url">URL</label>
+                    <input type="url" name="url" id="url" placeholder="www.example.com">
+                </div>
+                <input type="submit" value="ajouter">
+            </form>
+        </div>
+    </div>
+    <script src="ev.js"></script>
+</body>
+</html>
